@@ -15,3 +15,5 @@ repository=https://github.com/nar1nari/obsidian/releases/latest/download
 EOF
 xbps-install -Su obsidian
 ```
+
+### Template from [nar1nari](https://github.com/nar1nari/obsidian)
