@@ -1,2 +1,19 @@
-# VUR
-Void User Repository
+# VUR — Void User Repository
+
+Community-driven Void Linux templates repository.
+Inspired by Arch User Repository (AUR).
+
+## Structure
+
+- `core/`     – system-critical packages
+- `extra/`    – desktop & user packages
+- `multilib/` – 32-bit packages
+- `doc/`      – documentation
+- `scripts/`  – automation & tooling
+
+## Index
+
+Package index is automatically generated:
+https://t4n-os.github.io/VUR/index.json
+
+⚠️ Do NOT edit index.json manually.
