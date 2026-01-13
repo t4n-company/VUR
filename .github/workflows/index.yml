@@ -1,0 +1,28 @@
+name: Generate VUR Index
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "core/**"
+      - "extra/**"
+      - "multilib/**"
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Generate index.json
+      run: |
+        python3 scripts/gen_index.py
+
+    - name: Commit index
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git add index.json
+        git commit -m "auto: update VUR index" || exit 0
+        git push
