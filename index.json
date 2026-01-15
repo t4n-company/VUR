@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-01-15T17:55:32.393514+00:00",
+  "packages": {
+    "xorg-minimal": {
+      "category": "core",
+      "path": "core/xorg-minimal",
+      "version": "1.2",
+      "revision": 2,
+      "short_desc": "Xorg meta-package including xorg-xserver and needed tools"
+    },
+    "linux-zen": {
+      "category": "core",
+      "path": "core/linux-zen",
+      "version": "6.13.0",
+      "revision": 1,
+      "short_desc": "Zen - Linux kernel and modules (${version%.*} series)"
+    },
+    "brave-browser": {
+      "category": "extra",
+      "path": "extra/brave-browser",
+      "version": "1.78.102",
+      "revision": 1,
+      "short_desc": "Web browser"
+    },
+    "android-studio": {
+      "category": "extra",
+      "path": "extra/android-studio",
+      "version": "2.2.2",
+      "revision": 1,
+      "short_desc": "The official Android IDE"
+    },
+    "zen-browser": {
+      "category": "extra",
+      "path": "extra/zen-browser",
+      "version": "1.7b",
+      "revision": 1,
+      "short_desc": "Minimalistic web browser"
+    },
+    "obsidian": {
+      "category": "extra",
+      "path": "extra/obsidian",
+      "version": "1.8.10",
+      "revision": 1,
+      "short_desc": "Knowledge base and note-taking program"
+    }
+  },
+  "aliases": {
+    "xorg": [
+      "xorg-minimal"
+    ],
+    "xorg-minimal": [
+      "xorg-minimal"
+    ],
+    "linux": [
+      "linux-zen"
+    ],
+    "linux-zen": [
+      "linux-zen"
+    ],
+    "brave": [
+      "brave-browser"
+    ],
+    "brave-browser": [
+      "brave-browser"
+    ],
+    "browser": [
+      "brave-browser",
+      "zen-browser"
+    ],
+    "android": [
+      "android-studio"
+    ],
+    "android-studio": [
+      "android-studio"
+    ],
+    "studio": [
+      "android-studio"
+    ],
+    "zen": [
+      "zen-browser"
+    ],
+    "zen-browser": [
+      "zen-browser"
+    ],
+    "obsidian": [
+      "obsidian"
+    ],
+    "note": [
+      "obsidian"
+    ]
+  }
+}
