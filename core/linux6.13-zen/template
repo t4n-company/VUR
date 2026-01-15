@@ -1,5 +1,5 @@
 # Template file for 'linux6.13-zen'
-pkgname=linux6.13-zen
+pkgname=linux-zen
 version=6.13.0
 revision=1
 short_desc="Zen - Linux kernel and modules (${version%.*} series)"
